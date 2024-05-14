@@ -8,7 +8,7 @@ public class ConstruirSA {
         try {
 //  1. Cargar el driver MariaDB 
 
-            Class.forName("org.mariadb.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver");
 
 //  2. Establecer la conexión a la base de datos previamente creada.
             
